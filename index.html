@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <script src="bundle.js"></script>
+  <title>Task #02</title>
+</head>
+
+<body>
+  <div id="parent">
+    <div id="contactSec">
+      <label for="contacts" class="label">CONTACTS</label>
+      <br>
+      <input type="text" placeholder="Select Name">
+
+    </div>
+    <input type="button" class="button" id="add" value="+">
+    <div>
+      <label for="subject" class="label">SUBJECT</label>
+      <br>
+      <input type="text" class="bgClr" placeholder="You can add a subject">
+    </div>
+
+    <div>
+      <label for="message" class="label">MESSAGE</label>
+      <br>
+      <div id="messageSec">
+        <span class="toolbar">B </span>
+        <span class="toolbar">I</span>
+        <span class="toolbar">U</span>
+        <span class="toolbar"><img src="pic.png" alt=""> </span>
+        <span class="toolbar toolbar-format"><i class="material-icons">format_align_left</i></span>
+        <span class="toolbar toolbar-format"><i class="material-icons">format_align_center</i></span>
+        <span class="toolbar toolbar-format"><i class="material-icons">format_align_right</i></span>
+        <span class="toolbar toolbar-format"><i class="material-icons">format_align_justify</i></span>
+      </div>
+      <textarea name="message" class="bgClr" rows="10"></textarea>
+    </div>
+
+    <span id="buttons">
+        <button class="button" id="close">
+          <i class="material-icons btnIcon">close</i>
+          Discard
+        </button>
+
+        <button class="button" id="send">
+          <i class="material-icons btnIcon">email</i>
+          Send Message
+        </button>    
+      </span>
+  </div>
+</body>
+
+</html>
